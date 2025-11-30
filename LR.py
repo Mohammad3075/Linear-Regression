@@ -1,4 +1,4 @@
-# "Linear Rgression example, Author: Mohammad Gharibi"
+# "Linear Rgression example, Author: Momo Gharibi"
 # "This script demonstrates how to generate synthetic linear regression data,
 # fit a regression model manually (using the normal equation) and using
 # scikit-learn, visualize the data and regression line, and compute the
@@ -48,3 +48,4 @@ mse = mean_squared_error(y_flat, y_pred)
 print("MSE via sklearn:", mse)
 rmse = np.sqrt(mse)
 print("RMSE:", rmse)
+
